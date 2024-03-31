@@ -1,0 +1,278 @@
+body {
+    font-family: 'Merriweather', 'Inter';
+}
+
+.banner-section {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.new-year-off {
+    text-align: center;
+}
+
+.offer-1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: auto;
+}
+
+.offer-2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: auto;
+}
+
+.midnight-party {
+    display: flex;
+    background-image: url(./resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    padding: 100px;
+    color: #FFF;
+}
+
+.party-welcome {
+    font-family: Merriweather;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.party-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.party-join {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.venue {
+    background-color: rgba(236, 222, 222, 0.8);
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(236, 222, 222, 0.8), #fff);
+    text-align: center;
+}
+
+.schedule {
+    color: #070211;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 70px;
+}
+
+.place {
+    color: #F00;
+}
+
+.btn {
+    border-radius: 15px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 16px 24px;
+    border: none;
+}
+
+.coming-soon {
+    display: flex;
+    margin-top: 200px;
+}
+
+.offer-left {
+    width: 30%;
+    margin-top: 40px;
+}
+
+.offer-left>h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-left>h2 {
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+.offer-middle {
+    width: 35%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    border: 15px solid #F00;
+    border-radius: 50%;
+}
+
+.offer-right {
+    width: 30%;
+    margin-top: 40px;
+    padding-left: 60px;
+}
+
+.offer-right>h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.holiday {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.holiday>h4 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday>h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+
+.holiday>p {
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-bottom: 100px;
+}
+
+.gift {
+    margin-top: 100px;
+}
+
+.gift>h4 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.gift>h2 {
+    color: black;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: -20px;
+    margin-bottom: -10px;
+
+}
+
+.card:hover {
+    transform: scale(1.04);
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.news-letter {
+    text-align: center;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-top: 100px;
+}
+
+.news-letter>img {
+    margin-top: 100px;
+}
+
+.news-letter>h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.news-letter>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-bottom: 50px;
+}
+
+.news-letter>input {
+    border-radius: 50px 0px 0px 50px;
+    width: 385px;
+    height: 50px;
+    border: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+
+.news-letter>button {
+    background-color: #F00;
+    width: 200px;
+    height: 50px;
+    border: 0;
+    margin-left: 0;
+    margin-bottom: 70px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.footer {
+    background-color: #070211;
+    color: #FFF;
+}
+
+.footer-align {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.footer-upper {
+    display: flex;
+}
+
+.footer-middle {
+    text-align: center;
+    border-top: 2px solid rgba(75, 58, 109, 0.6);
+    border-bottom: 2px solid rgba(75, 58, 109, 0.6);
+}
